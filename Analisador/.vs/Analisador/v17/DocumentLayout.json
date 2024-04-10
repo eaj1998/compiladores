@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Workspace\\trabCompiladores\\Analisador\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D528AC6-D534-4D0F-B7A2-98AC9FAFD850}|AnalisadorLexico\\AnalisadorLexico.csproj|d:\\workspace\\trabcompiladores\\analisador\\analisadorlexico\\services\\servicoanalisadorlexico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D528AC6-D534-4D0F-B7A2-98AC9FAFD850}|AnalisadorLexico\\AnalisadorLexico.csproj|solutionrelative:analisadorlexico\\services\\servicoanalisadorlexico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D528AC6-D534-4D0F-B7A2-98AC9FAFD850}|AnalisadorLexico\\AnalisadorLexico.csproj|D:\\Workspace\\trabCompiladores\\Analisador\\analisadorlexico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D528AC6-D534-4D0F-B7A2-98AC9FAFD850}|AnalisadorLexico\\AnalisadorLexico.csproj|solutionrelative:analisadorlexico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D528AC6-D534-4D0F-B7A2-98AC9FAFD850}|AnalisadorLexico\\AnalisadorLexico.csproj|D:\\Workspace\\trabCompiladores\\Analisador\\analisadorlexico\\services\\servicogeracaoautomatofinito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D528AC6-D534-4D0F-B7A2-98AC9FAFD850}|AnalisadorLexico\\AnalisadorLexico.csproj|solutionrelative:analisadorlexico\\services\\servicogeracaoautomatofinito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D528AC6-D534-4D0F-B7A2-98AC9FAFD850}|AnalisadorLexico\\AnalisadorLexico.csproj|D:\\Workspace\\trabCompiladores\\Analisador\\analisadorlexico\\models\\simbolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D528AC6-D534-4D0F-B7A2-98AC9FAFD850}|AnalisadorLexico\\AnalisadorLexico.csproj|solutionrelative:analisadorlexico\\models\\simbolo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServicoAnalisadorLexico.cs",
+              "DocumentMoniker": "D:\\Workspace\\trabCompiladores\\Analisador\\AnalisadorLexico\\Services\\ServicoAnalisadorLexico.cs",
+              "RelativeDocumentMoniker": "AnalisadorLexico\\Services\\ServicoAnalisadorLexico.cs",
+              "ToolTip": "D:\\Workspace\\trabCompiladores\\Analisador\\AnalisadorLexico\\Services\\ServicoAnalisadorLexico.cs",
+              "RelativeToolTip": "AnalisadorLexico\\Services\\ServicoAnalisadorLexico.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T00:00:54.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicoGeracaoAutomatoFinito.cs",
+              "DocumentMoniker": "D:\\Workspace\\trabCompiladores\\Analisador\\AnalisadorLexico\\Services\\ServicoGeracaoAutomatoFinito.cs",
+              "RelativeDocumentMoniker": "AnalisadorLexico\\Services\\ServicoGeracaoAutomatoFinito.cs",
+              "ToolTip": "D:\\Workspace\\trabCompiladores\\Analisador\\AnalisadorLexico\\Services\\ServicoGeracaoAutomatoFinito.cs",
+              "RelativeToolTip": "AnalisadorLexico\\Services\\ServicoGeracaoAutomatoFinito.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T23:54:19.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Simbolo.cs",
+              "DocumentMoniker": "D:\\Workspace\\trabCompiladores\\Analisador\\AnalisadorLexico\\Models\\Simbolo.cs",
+              "RelativeDocumentMoniker": "AnalisadorLexico\\Models\\Simbolo.cs",
+              "ToolTip": "D:\\Workspace\\trabCompiladores\\Analisador\\AnalisadorLexico\\Models\\Simbolo.cs",
+              "RelativeToolTip": "AnalisadorLexico\\Models\\Simbolo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T23:29:23.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Workspace\\trabCompiladores\\Analisador\\AnalisadorLexico\\Program.cs",
+              "RelativeDocumentMoniker": "AnalisadorLexico\\Program.cs",
+              "ToolTip": "D:\\Workspace\\trabCompiladores\\Analisador\\AnalisadorLexico\\Program.cs",
+              "RelativeToolTip": "AnalisadorLexico\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T23:08:59.113Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
