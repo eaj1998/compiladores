@@ -1,0 +1,2 @@
+se 1 = 2 entao aei = 3 fims
+se 1 = 2 entao aei : 3 senao oia : 54 fim

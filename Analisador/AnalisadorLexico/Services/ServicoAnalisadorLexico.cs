@@ -44,7 +44,7 @@ namespace Servicos {
                     for (int i = 0; i < token.Length; i++) {
                         // passa cada caractere do token
                         // verifica se tem uma transição para esse caractere/simbolo
-                        // como ta determinizado, só tem uma ou nenhuma trasição por esse caractere/simbolo
+                        // como esta determinizado, só tem uma ou nenhuma trasição por esse caractere/simbolo
                         Transicao transicaoSimbolo = (estadoAtual.transicoes.Where(x => x.simbolo.Equals(token[i]))).FirstOrDefault();
                         if (transicaoSimbolo == null) {
                             // não encontrou transição, leva o índice para a última posição

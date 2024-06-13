@@ -146,42 +146,20 @@ id: 4, estado: 22, rotulo: entao, linha 1
 id: 5, estado: 1, rotulo: aei, linha 1
 id: 6, estado: 7, rotulo: =, linha 1
 id: 7, estado: 2, rotulo: 3, linha 1
-id: 8, estado: 30, rotulo: fim, linha 1
-id: 9, estado: 17,24, rotulo: se, linha 2
-id: 10, estado: 2, rotulo: 1, linha 2
-id: 11, estado: 7, rotulo: =, linha 2
-id: 12, estado: 2, rotulo: 2, linha 2
-id: 13, estado: 22, rotulo: entao, linha 2
-id: 14, estado: 1, rotulo: aei, linha 2
-id: 15, estado: 13, rotulo: :, linha 2
-id: 16, estado: 2, rotulo: 3, linha 2
-id: 17, estado: 27, rotulo: senao, linha 2
-id: 18, estado: 1, rotulo: oia, linha 2
-id: 19, estado: 13, rotulo: :, linha 2
-id: 20, estado: 2, rotulo: 54, linha 2
-id: 21, estado: 30, rotulo: fim, linha 2
-id: 22, estado: 1, rotulo: aoie, linha 3
-id: 23, estado: 7, rotulo: =, linha 3
-id: 24, estado: 1, rotulo: aaa, linha 3
-id: 25, estado: 1, rotulo: eee, linha 4
-id: 26, estado: 13, rotulo: :, linha 4
-id: 27, estado: 2, rotulo: 1, linha 4
-id: 28, estado: 3, rotulo: +, linha 4
-id: 29, estado: 2, rotulo: 2, linha 4
-id: 30, estado: 32, rotulo: de, linha 5
-id: 31, estado: 1, rotulo: a, linha 5
-id: 32, estado: 13, rotulo: :, linha 5
-id: 33, estado: 2, rotulo: 1, linha 5
-id: 34, estado: 36, rotulo: para, linha 5
-id: 35, estado: 2, rotulo: 2, linha 5
-id: 36, estado: 3, rotulo: +, linha 5
-id: 37, estado: 2, rotulo: 1, linha 5
-id: 38, estado: 41, rotulo: fazer, linha 5
-id: 39, estado: 1, rotulo: a, linha 5
-id: 40, estado: 13, rotulo: :, linha 5
-id: 41, estado: 2, rotulo: 93, linha 5
-id: 42, estado: 30, rotulo: fim, linha 5
+id: 8, estado: 17,24, rotulo: se, linha 2
+id: 9, estado: 2, rotulo: 1, linha 2
+id: 10, estado: 7, rotulo: =, linha 2
+id: 11, estado: 2, rotulo: 2, linha 2
+id: 12, estado: 22, rotulo: entao, linha 2
+id: 13, estado: 1, rotulo: aei, linha 2
+id: 14, estado: 13, rotulo: :, linha 2
+id: 15, estado: 2, rotulo: 3, linha 2
+id: 16, estado: 27, rotulo: senao, linha 2
+id: 17, estado: 1, rotulo: oia, linha 2
+id: 18, estado: 13, rotulo: :, linha 2
+id: 19, estado: 2, rotulo: 54, linha 2
+id: 20, estado: 30, rotulo: fim, linha 2
 Erros:
-Nenhum.
+Linha 1: a sequência de símbolos fims não é reconhecida como sentença...
 Análise léxica concluída...
 

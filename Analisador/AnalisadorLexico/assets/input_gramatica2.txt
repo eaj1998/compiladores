@@ -1,0 +1,5 @@
+alo
+sal
+ei
+<S> ::= a<A> | e<A> | i<A> | o<A>
+<A> ::= a<A> | e<A> | i<A> | o<A> | ~

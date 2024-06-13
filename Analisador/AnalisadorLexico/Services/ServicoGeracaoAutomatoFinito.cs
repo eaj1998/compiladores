@@ -23,9 +23,9 @@ namespace Servicos {
         public AutomatoFinito gerarAutomatoFinitoInicial(string arquivoEntrada) {
             lerArquivo(arquivoEntrada);
             List<string> producoes, tokens;
-            producoes = (from linha in _listaEntrada where linha.Contains(Utilidades.simboloAtribuicao) select linha.Replace(" ", string.Empty)).ToList();
+            producoes = (from linha in _listaEntrada where linha.Contains(Utilidades.simboloAtribuicao) select linha.Replace(" ", string.Empty)).ToList(); //busca as producoes atraves do simbolo de atribuicao
             _listaEntrada.RemoveAll(x => producoes.Contains(x.Replace(" ", string.Empty)));
-            tokens = (from linha in _listaEntrada select linha.Replace(" ", string.Empty)).ToList();
+            tokens = (from linha in _listaEntrada select linha.Replace(" ", string.Empty)).ToList(); //mapeia os tokens
 
             AutomatoFinito automatoFinitoInicial = new AutomatoFinito();
             analisarProducoes(producoes, automatoFinitoInicial);

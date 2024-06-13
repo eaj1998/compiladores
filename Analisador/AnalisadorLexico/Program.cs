@@ -9,9 +9,10 @@ namespace AnalisadorLexico
         [STAThread]
         static void Main(string[] args)
         {
-            var txtArquivoGramatica = "D:\\Workspace\\trabCompiladores\\Analisador\\AnalisadorLexico\\assets\\input_gramatica.txt";
-            var txtArquivoSaida = "D:\\Workspace\\trabCompiladores\\Analisador\\AnalisadorLexico\\assets\\output.txt";
-            var txtArquivoCodigoFonte = "D:\\Workspace\\trabCompiladores\\Analisador\\AnalisadorLexico\\assets\\input_fonte.txt";
+            var txtArquivoGramatica = "D:\\Workspace\\compiladores\\Analisador\\AnalisadorLexico\\assets\\input_gramatica.txt";
+            var txtArquivoSaida = "D:\\Workspace\\compiladores\\Analisador\\AnalisadorLexico\\assets\\output.txt";
+            var txtArquivoCodigoFonte = "D:\\Workspace\\compiladores\\Analisador\\AnalisadorLexico\\assets\\input_fonte2.txt";
+            var txtArquivoGoldParser = "D:\\Workspace\\compiladores\\Analisador\\AnalisadorLexico\\assets\\gramatica gold parser.xml";
 
             System.IO.StreamWriter streamWriterSaida = new System.IO.StreamWriter(txtArquivoSaida, false, Encoding.UTF8);
 
@@ -43,10 +44,28 @@ namespace AnalisadorLexico
                 return;
             }
 
-            streamWriterSaida.Close();
-            streamWriterSaida.Dispose();
-            Console.WriteLine("acabou");
-        }
+                ServicoAnalisadorSintatico servicoAnalisadorSintatico = new ServicoAnalisadorSintatico(txtArquivoGoldParser);
+                servicoAnalisadorSintatico.lerSimbolos();
+                servicoAnalisadorSintatico.lerProducoes();
+                servicoAnalisadorSintatico.lerTabelaLALR();
 
+                List<string> resultadoAnaliseSintatica = servicoAnalisadorSintatico.analisar(tokensLidos);
+
+                streamWriterSaida.WriteLine(String.Join(Environment.NewLine, resultadoAnaliseSintatica));
+
+                streamWriterSaida.Close();
+                streamWriterSaida.Dispose();
+
+                if (resultadoAnaliseSintatica != null && resultadoAnaliseSintatica.Count > 0)
+                {
+                    Console.WriteLine("Foram encontrados erros na análise sintática. Verifique o log!");
+                }
+                else
+                {
+                    Console.WriteLine("Análise sintática concluída!");
+                }
+                Console.WriteLine("Análise finalizada");
+            }
+
+        }
     }
-}
